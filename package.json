@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "name": "kata",
+  "bin": {
+    "kata": "bin/kata.js"
+  },
+  "preferGlobal": true,
+  "dependencies": {
+    "chokidar": "^1.6.1",
+    "codewars-runner-cli": "codewars/codewars-runner-cli",
+    "configstore": "^2.1.0",
+    "prompt": "^1.0.0",
+    "shell-escape": "^0.2.0",
+    "superagent": "^3.3.1"
+  },
+  "license": "MIT"
+}
