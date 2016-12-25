@@ -6,6 +6,7 @@
   },
   "preferGlobal": true,
   "dependencies": {
+    "chalk": "^1.1.3",
     "chokidar": "^1.6.1",
     "codewars-runner-cli": "codewars/codewars-runner-cli",
     "configstore": "^2.1.0",
