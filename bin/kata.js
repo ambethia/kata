@@ -2,7 +2,7 @@
 
 const [command, ...options] = process.argv.slice(2)
 const ConfigStore = require('configstore')
-const prompt = require('prompt')
+const setup = require('../lib/setup')
 const pkg = require('../package.json')
 const train = require('../lib/train')
 const verify = require('../lib/verify')
@@ -12,6 +12,8 @@ const HELP = `
   Usage
     $ kata COMMAND [OPTIONS]
   Commands
+    setup [LANGUAGE]
+      Downloads docker images and prompts you for your Codewars access token.
     train [URL] | [KATA_ID LANGUAGE]
       Downloads the starter solution and example test files and places
       them into a directory like 'LANGUAGE/name-of-kata' in your current path.
@@ -37,6 +39,9 @@ const run = (config) => {
     case 'train':
       train(config, ...options)
       break
+    case 'setup':
+      setup(config, ...options)
+      break
     case 'verify':
       verify(...options)
       break
@@ -53,17 +58,5 @@ const token = config.get('token')
 if (token !== undefined) {
   run(config)
 } else {
-  prompt.message = 'CODEWARS'
-  prompt.start()
-  prompt.get({
-    properties: {
-      token: {
-        description: 'Access Token (Visit https://www.codewars.com/users/edit to find API token)',
-        required: true
-      }
-    }
-  }, (err, result) => {
-    config.set('token', result.token)
-    run(config)
-  })
+  setup(config, ...options)
 }
