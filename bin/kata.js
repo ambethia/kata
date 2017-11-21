@@ -31,10 +31,10 @@ const HELP = `
     $ kata watch ./javascript/name-of-kata
     $ kata watch . javascript
 
-  You will need Docker (and docker-compose) to verify katas.
+  You will need Docker to verify katas.
 `
 
-const run = (config) => {
+const run = config => {
   switch (command) {
     case 'train':
       train(config, ...options)
