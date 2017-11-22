@@ -30,8 +30,47 @@ Examples
 You will need Docker to verify katas.
 ```
 
+## Languages
+
+I've [successfully tested](https://github.com/ambethia/katas) these languages:
+
+* [ ] BF
+* [x] C
+* [x] Clojure
+* [ ] CoffeeScript
+* [ ] C++
+* [ ] Crystal
+* [ ] C#
+* [ ] Dart
+* [ ] Elixir
+* [ ] Erlang
+* [ ] F#
+* [ ] Go
+* [ ] Groovy
+* [ ] Haskell
+* [ ] Java
+* [x] JavaScript
+* [ ] Kotlin
+* [ ] Lua
+* [ ] Nim
+* [ ] Objective-C
+* [ ] OCaml
+* [ ] PHP
+* [ ] Python
+* [ ] R
+* [x] Ruby
+* [ ] Rust
+* [x] Scala
+* [ ] Shell
+* [ ] Solidity
+* [ ] SQL
+* [ ] Swift
+* [x] TypeScript
+
 ## TODO
 
 * [x] Format test output.
 * [ ] Submit solutions
 * [ ] Atom integration
+* [ ] Don't swallow output from docker pull on new language. Workaround: run
+      `kata setup language` before starting a kata.
