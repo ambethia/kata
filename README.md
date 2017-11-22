@@ -48,11 +48,11 @@ I've [successfully tested](https://github.com/ambethia/katas) these languages:
 * [ ] Go
 * [ ] Groovy
 * [ ] Haskell
-* [ ] Java
+* [x] Java
 * [x] JavaScript
 * [ ] Kotlin
-* [ ] Lua
-* [ ] Nim
+* [x] Lua
+* [x] Nim
 * [ ] Objective-C
 * [ ] OCaml
 * [ ] PHP
@@ -63,8 +63,8 @@ I've [successfully tested](https://github.com/ambethia/katas) these languages:
 * [x] Scala
 * [ ] Shell
 * [ ] Solidity
-* [ ] SQL
-* [ ] Swift
+* [x] SQL
+* [x] Swift
 * [x] TypeScript
 
 ## TODO
