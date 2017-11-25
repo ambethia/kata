@@ -38,14 +38,14 @@ I've [successfully tested](https://github.com/ambethia/katas) these languages:
 * [x] C
 * [x] Clojure
 * [ ] CoffeeScript
-* [ ] C++
-* [ ] Crystal
+* [x] C++
+* [x] Crystal
 * [ ] C#
 * [ ] Dart
 * [ ] Elixir
 * [ ] Erlang
 * [ ] F#
-* [ ] Go
+* [x] Go
 * [ ] Groovy
 * [ ] Haskell
 * [x] Java
