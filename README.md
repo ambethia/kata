@@ -41,7 +41,7 @@ I've [successfully tested](https://github.com/ambethia/katas) these languages:
 * [x] C++
 * [x] Crystal
 * [x] C#
-* [ ] Dart
+* [x] Dart
 * [ ] Elixir
 * [ ] Erlang
 * [ ] F#
@@ -56,10 +56,10 @@ I've [successfully tested](https://github.com/ambethia/katas) these languages:
 * [ ] Objective-C
 * [ ] OCaml
 * [ ] PHP
-* [ ] Python
+* [x] Python
 * [ ] R
 * [x] Ruby
-* [ ] Rust
+* [x] Rust
 * [x] Scala
 * [ ] Shell
 * [ ] Solidity
