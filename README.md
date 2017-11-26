@@ -37,10 +37,10 @@ I've [successfully tested](https://github.com/ambethia/katas) these languages:
 * [ ] BF
 * [x] C
 * [x] Clojure
-* [ ] CoffeeScript
+* [x] CoffeeScript
 * [x] C++
 * [x] Crystal
-* [ ] C#
+* [x] C#
 * [ ] Dart
 * [ ] Elixir
 * [ ] Erlang
@@ -50,7 +50,7 @@ I've [successfully tested](https://github.com/ambethia/katas) these languages:
 * [ ] Haskell
 * [x] Java
 * [x] JavaScript
-* [ ] Kotlin
+* [x] Kotlin
 * [x] Lua
 * [x] Nim
 * [ ] Objective-C
