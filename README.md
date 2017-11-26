@@ -43,7 +43,7 @@ I've [successfully tested](https://github.com/ambethia/katas) these languages:
 * [x] C#
 * [x] Dart
 * [ ] Elixir
-* [ ] Erlang
+* [ ] Erlang (issues with shell escaping)
 * [ ] F#
 * [x] Go
 * [ ] Groovy
@@ -53,16 +53,16 @@ I've [successfully tested](https://github.com/ambethia/katas) these languages:
 * [x] Kotlin
 * [x] Lua
 * [x] Nim
-* [ ] Objective-C
+* [x] Objective-C
 * [ ] OCaml
-* [ ] PHP
+* [x] PHP
 * [x] Python
 * [ ] R
 * [x] Ruby
 * [x] Rust
 * [x] Scala
 * [ ] Shell
-* [ ] Solidity
+* [x] Solidity
 * [x] SQL
 * [x] Swift
 * [x] TypeScript
