@@ -15,7 +15,7 @@ Commands
     them into a directory like 'LANGUAGE/name-of-kata' in your current path.
     Automatically begins watch.
   watch PATH [LANGUAGE]
-    Watch for file changes at PATH and run verify continiously when they change.
+    Watch for file changes at PATH and run verify continuously when they change.
     The language is optional if your path is something like: 'LANGUAGE/name-of-kata'.
   verify PATH [LANGUAGE]
     Runs your code against the test file using the official Code Wars Docker images.
@@ -42,7 +42,7 @@ I've [successfully tested](https://github.com/ambethia/katas) these languages:
 * [x] Crystal
 * [x] C#
 * [x] Dart
-* [ ] Elixir
+* [x] Elixir
 * [ ] Erlang (issues with shell escaping)
 * [ ] F#
 * [x] Go
@@ -57,11 +57,11 @@ I've [successfully tested](https://github.com/ambethia/katas) these languages:
 * [ ] OCaml
 * [x] PHP
 * [x] Python
-* [ ] R
+* [x] R
 * [x] Ruby
 * [x] Rust
 * [x] Scala
-* [ ] Shell
+* [x] Shell
 * [x] Solidity
 * [x] SQL
 * [x] Swift
