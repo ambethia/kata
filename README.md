@@ -34,7 +34,7 @@ You will need Docker to verify katas.
 
 I've [successfully tested](https://github.com/ambethia/katas) these languages:
 
-* [ ] BF
+* [x] BF
 * [x] C
 * [x] Clojure
 * [x] CoffeeScript
@@ -44,17 +44,17 @@ I've [successfully tested](https://github.com/ambethia/katas) these languages:
 * [x] Dart
 * [x] Elixir
 * [ ] Erlang (issues with shell escaping)
-* [ ] F#
+* [x] F#
 * [x] Go
-* [ ] Groovy
-* [ ] Haskell
+* [x] Groovy
+* [x] Haskell
 * [x] Java
 * [x] JavaScript
 * [x] Kotlin
 * [x] Lua
 * [x] Nim
 * [x] Objective-C
-* [ ] OCaml
+* [x] OCaml
 * [x] PHP
 * [x] Python
 * [x] R
